@@ -1,0 +1,29 @@
+.parent{
+    width: 600px;
+    background-color: #ddd;
+}
+.child1{
+    float: left;
+    width:80px;
+    height: 36px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    line-height: 36px;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.nav{
+    float: right;
+    line-height: 24px;
+    padding: 6px 0;
+    font-size: 24px;
+}
+.navitem{
+    float: left;
+    margin-left:40px;
+    background-color: blue;
+}
